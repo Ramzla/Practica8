@@ -1,0 +1,63 @@
+Arma registrada: Espada
+Recompensa registrada: Moneda de oro
+
+ANTES DE MOVER:
+
+===== ESTADO DEL NIVEL =====
+Nombre: Bosque encantado
+Número: 1
+Dificultad: Normal
+
+Obstáculos:
+  Roca (5, 8) - daño: 10 - destruido: No
+  Espinas (12, 6) - daño: 20 - destruido: No
+
+CheckPoints:
+  Entrada (0, 0) - activado: No
+  Puente (15, 10) - activado: No
+
+Elementos dinámicos:
+  Personaje Heroe (0, 0) - vida: 100
+  Personaje Enemigo (10, 10) - vida: 60
+  Utilería Plataforma (3, 4) - Transporta al personaje - usada: No
+
+Inventario (2/5):
+  - Arma: Espada, daño: 25, alcance: 1.5
+  - Recompensa: Moneda de oro, valor: 100, tipo: moneda
+============================
+
+MOVIMIENTOS ALEATORIOS:
+  Personaje Heroe
+    Movimiento: oeste / 1 unidades
+    Posición final: (-1, 0)
+  Personaje Enemigo
+    Movimiento: oeste / 5 unidades
+    Posición final: (5, 10)
+  Utilería Plataforma
+    Movimiento: oeste / 3 unidades
+    Posición final: (0, 4)
+
+DESPUÉS DE MOVER:
+
+===== ESTADO DEL NIVEL =====
+Nombre: Bosque encantado
+Número: 1
+Dificultad: Normal
+
+Obstáculos:
+  Roca (5, 8) - daño: 10 - destruido: No
+  Espinas (12, 6) - daño: 20 - destruido: No
+
+CheckPoints:
+  Entrada (0, 0) - activado: No
+  Puente (15, 10) - activado: No
+
+Elementos dinámicos:
+  Personaje Heroe (-1, 0) - vida: 100
+  Personaje Enemigo (5, 10) - vida: 60
+  Utilería Plataforma (0, 4) - Transporta al personaje - usada: No
+
+Inventario (2/5):
+  - Arma: Espada, daño: 25, alcance: 1.5
+  - Recompensa: Moneda de oro, valor: 100, tipo: moneda
+============================
